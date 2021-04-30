@@ -1,0 +1,256 @@
+.container {
+  width: 700px; 
+  margin: 40px auto;
+}
+
+.cardintro-white{
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.cardexperiences-white{
+	background-color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.competencescard-white{
+  background-color: white;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.cardtyping-white{
+	padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 38px;
+    text-align: center;
+    background-color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	
+}
+
+.card-white{
+	background-color: white;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.card-white ul{
+	padding: 0;
+	margin: 0;
+}
+
+.card-white li{
+	display: inline;
+  list-style: none;
+  padding: 16px;
+  font-weight: 600;
+}
+
+.cta-linkedin{
+	background-color: #0180ff;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 0px 0px 0px 80px;
+  border: none;
+  font-weight: 600;
+}
+
+.cta-linkedin a{
+  color: #fff;
+}
+
+#navbar{
+	padding: 20px;
+	background-color: #F7F7F7;
+}
+
+
+.image-circle{
+	width: 20%;
+	max-width: 400px;
+	height: auto;
+ 	clip-path:ellipse(50% 50%);
+}
+
+.wrapper {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-typing {
+  width: 40ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  text-align: justify;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+.competences-shadow{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 30px 0px;
+	text-align: center;
+}
+
+.sensioexperience-shadow{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 30px 0px;
+	text-align: left;
+	list-style: none;
+}
+
+.sensioexperience-shadow li {
+	list-style: none;
+	text-align: justify;
+	padding: 6px;	
+}
+
+.artisanexperience-shadow{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: left;
+
+}
+
+.artisanexperience-shadow li {
+	list-style: none;
+	text-align: justify;
+	padding: 6px;	
+}
+
+.logo-inline{
+	width: 25%;
+  	max-width: 400px;
+  	height: auto;
+   	clip-path:ellipse(50% 50%);
+}
+
+.logoartisan-inline{
+	width: 20%;
+  	max-width: 400px;
+  	height: auto;
+   	clip-path:ellipse(50% 50%);
+}
+
+.footer-shadow{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: blue;
+}
+
+.btn-color{
+	font-family: 'Degular-Bold';
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #0180ff;
+    border-radius: 6px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    min-width: 280px;
+    max-width: 100%;
+    margin: 0 auto;
+    transition: all 0.25s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-color a{
+  color: #fff;
+}
+
+
+a:link{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
